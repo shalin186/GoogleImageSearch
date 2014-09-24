@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.codepath.googleimagesearch.ImageSearchActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="20"
+        android:showAsAction="always"
+        android:onClick="imageSearchSettings"
+        android:icon="@drawable/ic_action_settings"
+        android:title="@string/action_settings"/>
+    
+    <item android:id="@+id/action_search"
+          android:orderInCategory="10"
+          android:title="Search"
+          android:icon="@drawable/ic_action_search"
+          android:showAsAction="ifRoom|collapseActionView"
+          android:actionViewClass="android.widget.SearchView" />
+
+</menu>
